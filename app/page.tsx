@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
-import { buttonVariants } from "@/components/ui/button"
+import { Button, buttonVariants } from "@/components/ui/button"
 
 export default function IndexPage() {
   return (
@@ -33,6 +33,10 @@ export default function IndexPage() {
         >
           GitHub
         </Link>
+        <Button variant="secondary" className="animate-in zoom-in duration-500">
+          Secondary
+        </Button>
+        <Button variant="default">Primary</Button>
       </div>
     </section>
   )
