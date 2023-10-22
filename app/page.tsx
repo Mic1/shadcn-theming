@@ -36,7 +36,7 @@ export default function IndexPage() {
         <Button variant="secondary" className="animate-in zoom-in duration-500">
           Secondary
         </Button>
-        <Button variant="default">Primary</Button>
+        <Button variant="ghost">Ghost</Button>
       </div>
     </section>
   )

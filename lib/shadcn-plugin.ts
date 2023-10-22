@@ -1,5 +1,4 @@
-import animatePlugin from "tailwindcss-animate"
-import theme, { fontFamily } from "tailwindcss/defaultTheme"
+import { fontFamily } from "tailwindcss/defaultTheme"
 import plugin from "tailwindcss/plugin"
 
 export const shadcnPlugin = plugin(
@@ -67,7 +66,7 @@ export const shadcnPlugin = plugin(
   // 2. Extend the tailwind theme with "themable utilities"
 
   {
-    darkMode: ["class"],
+    // darkMode: ["class"],
     theme: {
       container: {
         center: true,
@@ -136,6 +135,6 @@ export const shadcnPlugin = plugin(
         },
       },
     },
-    plugins: [animatePlugin],
+    // plugins: [animatePlugin],
   }
 )
